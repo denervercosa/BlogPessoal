@@ -1,0 +1,9 @@
+package com.generation.blogpessoal.model;
+
+public class Postagem {
+
+	private Long id;
+	private String título;
+	private String texto;
+	private localDateTime data;
+}
