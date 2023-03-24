@@ -1,6 +1,0 @@
-package com.generation.blogpessoal.repository;
-
-public interface PostagemRepository extends JpaRepository<Postagem,Long>  {
-	
-	
-}

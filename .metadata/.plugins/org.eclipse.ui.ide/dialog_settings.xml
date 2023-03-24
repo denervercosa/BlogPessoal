@@ -48,4 +48,12 @@
 		<item key="DIALOG_HEIGHT" value="621"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="610"/>
+		<item key="DIALOG_Y_ORIGIN" value="291"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
 </section>
