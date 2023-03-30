@@ -18,12 +18,18 @@ public class UserDetailsImpl implements UserDetails {
 	
 	private List<GrantedAuthority> authorities;
 	
-	private UserDetailsImpl (Usuario user) {
+	public UserDetailsImpl (Usuario user) {
 		this.userName = user.getUsuario();
 		this.password = user.getSenha();
 	}
 	
 	
+	
+	public UserDetailsImpl() {	
+	}
+
+
+
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// TODO Auto-generated method stub
